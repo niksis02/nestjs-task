@@ -38,6 +38,6 @@ $ yarn run start:prod
 
 ## Available API endpoints
 
-1. [POST] /auth/signUp # User login
-2. [POST] /auth/signIn # User registration
-3. [GET] /user # Get user data
+1. [POST]   /auth/signUp   # User login
+2. [POST]   /auth/signIn   # User registration
+3. [GET]    /user          # Get user data
