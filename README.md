@@ -1,10 +1,11 @@
 ## Description
 
 This is a simple authentication api for the users created with Nest.js.
-The project uses MVCS as the main architecture.
-The RDBMS is MySQL. The project uses docker image as the main database.
-Prisma is the main ORM.
-The project does not include any unit, integration or e2e test.
+
+1. The project uses MVCS as the main architecture.
+2. The RDBMS is MySQL. The project uses docker image as the main database.
+3. Prisma is the main ORM.
+4. The project does not include any unit, integration or e2e test.
 
 ## Installation
 
@@ -20,7 +21,7 @@ $ yarn install
 # Set up the database
 $ docker-compose up
 
-# apply the migrations
+# Apply the migrations
 $ npx prisma db push
 
 # Run the application
@@ -34,3 +35,9 @@ $ yarn run start:dev
 # production mode
 $ yarn run start:prod
 ```
+
+## Available API endpoints
+
+[POST] /auth/signUp # User login
+[POST] /auth/signIn # User registration
+[GET] /user # Get user data
